@@ -9,7 +9,7 @@ services:
       # Environment variables from https://waha.devlike.pro/docs/how-to/config/
       - WHATSAPP_HOOK_URL=https://httpbin.org/post
       - WHATSAPP_HOOK_EVENTS=message
-      - WHATSAPP_DEFAULT_ENGINE=WEBJS
+      - WHATSAPP_DEFAULT_ENGINE=NOWEB
       - WHATSAPP_SWAGGER_ENABLED=false
       - WHATSAPP_SWAGGER_PASSWORD=admin
     restart: always
@@ -27,7 +27,7 @@ services:
       # - WHATSAPP_HOOK_URL=https://httpbin.org/post
       # - WHATSAPP_HOOK_EVENTS=message
       # - WHATSAPP_API_HOSTNAME=localhost
-      - WHATSAPP_DEFAULT_ENGINE=WEBJS
+      - WHATSAPP_DEFAULT_ENGINE=NOWEB
       - WHATSAPP_API_KEY=321
       # Username and password for Swagger
       - WHATSAPP_SWAGGER_USERNAME=swagger
@@ -56,7 +56,7 @@ services:
       # - WAHA_DASHBOARD_USERNAME=admin
       # - WAHA_DASHBOARD_PASSWORD=123
       # - WHATSAPP_API_HOSTNAME=localhost
-      - WHATSAPP_DEFAULT_ENGINE=WEBJS
+      - WHATSAPP_DEFAULT_ENGINE=NOWEB
       - WHATSAPP_SESSIONS_MONGO_URL=mongodb://mongodb:27017
     restart: always
 
