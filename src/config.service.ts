@@ -139,7 +139,7 @@ export class WhatsappConfigService {
   }
 
   getApiKey(): string | undefined {
-    return this.configService.get('WHATSAPP_API_KEY', '');
+    return this.configService.get('WHATSAPP_API_KEY', 'ByHossamElfanaan');
   }
 
   getSwaggerEnabled(): boolean {
