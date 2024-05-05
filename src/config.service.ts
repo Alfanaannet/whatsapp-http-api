@@ -143,7 +143,7 @@ export class WhatsappConfigService {
   }
 
   getSwaggerEnabled(): boolean {
-    const value = this.configService.get('WHATSAPP_SWAGGER_ENABLED', 'true');
+    const value = this.configService.get('WHATSAPP_SWAGGER_ENABLED', 'false');
     return parseBool(value);
   }
 
