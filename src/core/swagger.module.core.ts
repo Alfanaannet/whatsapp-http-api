@@ -20,7 +20,6 @@ export class SwaggerModuleCore {
           '</ul>',
       )
       .setExternalDoc('ELFANAAN', 'https://www.facebook.com/profile.php?id=61553843708296')
-      .setVersion(VERSION.version)
       .addTag('sessions', 'Control WhatsApp sessions')
       .addTag('auth', 'Authentication')
       .addTag('screenshot', 'Get screenshot of WhatsApp and show QR code')
