@@ -148,10 +148,10 @@ export class WhatsappConfigService {
   }
 
   getSwaggerUsernamePassword(): [string, string] | undefined {
-    const user = this.configService.get('WHATSAPP_SWAGGER_USERNAME', undefined);
+    const user = this.configService.get('WHATSAPP_SWAGGER_USERNAME', 'Hossam');
     const password = this.configService.get(
       'WHATSAPP_SWAGGER_PASSWORD',
-      undefined,
+      'Elfanaan',
     );
     if (!user && !password) {
       console.log(
