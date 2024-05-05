@@ -10,6 +10,8 @@ services:
       - WHATSAPP_HOOK_URL=https://httpbin.org/post
       - WHATSAPP_HOOK_EVENTS=message
       - WHATSAPP_DEFAULT_ENGINE=WEBJS
+      - WHATSAPP_SWAGGER_USERNAME=swagger
+      - WHATSAPP_SWAGGER_PASSWORD=admin
     restart: always
 
   whatsapp-http-api-plus:
